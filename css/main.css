@@ -1,0 +1,59 @@
+body, div, span, h1, h2, h3 
+{
+	padding: 0;
+	margin: 0;
+	font-family: verdana;
+	font-size: 10px;
+	line-height: 15px;
+}
+.container
+{
+	padding: 5px;
+	width: 452px;
+	margin: 10px auto;
+}
+.informer
+{
+	display:inline-block;
+	width: 300px;
+	border: 1px solid #555;
+	padding: 5px;
+	margin: 10px;
+	border-radius: 5px;
+	float: left;
+}
+.informer .informer-header
+{
+	background-color: #000;
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 10px;
+}
+.informer .informer-image
+{
+	margin: 5px;
+	text-align: center;
+}
+.informer .informer-text
+{
+	text-align: justify;
+	background-color: #eee; 
+	height: 60px;
+	padding: 5px;
+	border-radius: 5px;
+}
+#prev, #next
+{
+	display: inline-block;
+	font-size:20px;
+	background-color: #555;
+	color: #fff;
+	width:50px;
+	height: 50px;
+	margin: 160px 5px 5px 5px;
+	border-radius: 25px;
+	line-height: 48px;
+	float: left;
+	text-align: center;
+}
