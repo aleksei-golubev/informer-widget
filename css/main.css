@@ -56,4 +56,5 @@ body, div, span, h1, h2, h3
 	line-height: 48px;
 	float: left;
 	text-align: center;
+	cursor: pointer;
 }
