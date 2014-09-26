@@ -1,23 +1,21 @@
-Informer Widget v0.0~dev
-------------------
+#Informer Widget v0.0~dev
 
 Informer Widget is a widget based on jQuery-UI. It helps to create infromers using model, type and content.
 
-**Example**
-
+##Example
 
 To create a simple informer you need:
 
 * Create an informer model.
-
-	var blockModel = {
+```
+var blockModel = {
 		header: "header",
 		photo: "image",
 		description: "text"
 	};
-
+```
 * Define type of content. You can set template and fill-function.
-
+```
 	var blockType = {
 		header: {
 			elementClass: 'informer-header',
@@ -42,9 +40,9 @@ To create a simple informer you need:
 			}
 		}
 	};
-
+```
 * Set some content.
-
+```
 	var blockContent = [
 		{
 			header:	"Lambda-class T-4a shuttle",
@@ -63,9 +61,9 @@ To create a simple informer you need:
 			description: "The Imperial II-class Star Destroyer, also known as ... Star Destroyer."
 		}
 	];
-
+```
 * Add attach widget to element.
-
+```
 	$("#myBlock").informer({
 		model: blockModel,
 		content: blockContent,
@@ -73,5 +71,5 @@ To create a simple informer you need:
 		rotate: true,
 		timeout: 10000,
 	});
-
+```
 JS-file with script of Informer widget is js/widget/informer.js
