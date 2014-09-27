@@ -12,13 +12,7 @@ $(document).ready(function() {
 		onCreate: function() {
 			this.userVars.number = 10;
 		},
-		
-		onNext: function(args) {
-			if (this.count >= this.userVars.number) {
-				this.stop();
-			}
-		},
-		
+
 		onPrev: function(args) {
 			if (this.count >= this.userVars.number) {
 				this.stop();
