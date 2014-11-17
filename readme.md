@@ -62,7 +62,7 @@ var blockContent = [
 	}
 ];
 ```
-* Add attach widget to element.
+* Attach widget to element.
 ```
 $("#myBlock").informer({
 	model: blockModel,
