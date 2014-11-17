@@ -26,7 +26,7 @@ $.widget("bs.informer", {
 	timer: null,
 	count: 0,
 	
-	_create: function () {
+	_create: function() {
 		var blockNumber =	this.options.randomStart ?
 							Math.floor(Math.random() * this.options.content.length) : 
 							this.options.start;
