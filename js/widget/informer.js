@@ -1,7 +1,7 @@
 /*
 	Informer Widget v0.0~dev
 */
-$.widget("bs.informer", {
+$.widget("ro.informer", {
 	options: {
 		model: {},
 		types: {},
